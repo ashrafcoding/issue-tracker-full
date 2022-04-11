@@ -1,8 +1,10 @@
+import React from 'react';
+import Dashboard from './screens/Dashboard';
 
 function App() {
   return (
     <div className="App">
-      hello world from App.js
+     <Dashboard />
     </div>
   );
 }
