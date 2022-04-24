@@ -9,6 +9,8 @@ import {
   Badge,
   Divider,
   List,
+  Box
+  
 } from "@mui/material";
 import { Notifications, Menu, ChevronLeft } from "@mui/icons-material";
 import { mainListItems, secondaryListItems } from "./listItems";
@@ -69,8 +71,8 @@ export default function Navbar() {
   };
 
   return (
-    <div>
-      <AppBar position="absolute" open={open}>
+    <Box >
+      <AppBar position="absolute" open={open} >
         <Toolbar
           sx={{
             pr: "24px", // keep right padding when drawer closed
@@ -124,6 +126,6 @@ export default function Navbar() {
           {secondaryListItems}
         </List>
       </Drawer>
-    </div>
+    </Box>
   );
 }
