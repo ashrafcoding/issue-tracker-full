@@ -4,7 +4,7 @@ import { InputBase, Autocomplete, TextField, Box, Button } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import ProjectModal from "./ProjectModal";
 
-const Search = styled("div")(({ theme }) => ({
+export const Search = styled("div")(({ theme }) => ({
   position: "relative",
   borderRadius: theme.shape.borderRadius,
   backgroundColor: alpha(theme.palette.common.white, 0.15),
@@ -19,7 +19,7 @@ const Search = styled("div")(({ theme }) => ({
   border: "1px solid #ced4da",
 }));
 
-const SearchIconWrapper = styled("div")(({ theme }) => ({
+export const SearchIconWrapper = styled("div")(({ theme }) => ({
   padding: theme.spacing(0, 2),
   height: "100%",
   position: "absolute",

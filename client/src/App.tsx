@@ -18,8 +18,8 @@ function App() {
         <Sidebar />
         <Navbar />
         {/* <Dashboard /> */}
-        <ProjectScreen/>
-        {/* <IssueScreen /> */}
+        {/* <ProjectScreen/> */}
+        <IssueScreen />
       </Box>
     </ThemeProvider>
   );
